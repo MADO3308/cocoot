@@ -12,23 +12,23 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav id="navbar">
-        <div class="nav-container">
+    <nav id="cocoon-navbar">
+        <div class="ccn-nav-wrap">
             
-            <a href="#" class="logo">
-                <div class="logo-blob"></div>
+            <a href="#" class="ccn-logo">
+                <div class="ccn-logo-blob"></div>
                 Cocoon
             </a>
             
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
+            <ul class="ccn-nav-links">
+                <li><a href="#cocoon-toolkit">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#preview">Try It</a></li>
                 <li><a href="#dashboard">Dashboard</a></li>
                 <li><a href="#testimonials">Reviews</a></li>
             </ul>
-            <a href="#download" class="nav-cta">Download Free</a>
-                        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <a href="#download" class="ccn-nav-cta">Download Free</a>
+                        <div class="ccn-mobile-btn" id="cocoonMobileBtn">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -36,86 +36,143 @@
             
         </div>
     </nav>
-    <div class="mobile-menu-overlay" id="mobileOverlay"></div>
-    <div class="mobile-menu" id="mobileMenu">
-        <ul class="mobile-menu-links">
-            <li><a href="#features">Features</a></li>
+    <div class="ccn-mobile-overlay" id="cocoonMobileOverlay"></div>
+    <div class="ccn-mobile-menu" id="cocoonMobileMenu">
+        <ul class="ccn-mobile-links">
+            <li><a href="#cocoon-toolkit">Features</a></li>
             <li><a href="#how-it-works">How It Works</a></li>
             <li><a href="#preview">Try It</a></li>
             <li><a href="#dashboard">Dashboard</a></li>
             <li><a href="#testimonials">Reviews</a></li>
         </ul>
-        <a href="#download" class="mobile-menu-cta">Download Free</a>
+        <a href="#download" class="ccn-mobile-cta">Download Free</a>
     </div>
 <!--matensash shwayet icons-->
-<section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <div class="hero-badge">
-                    <span class="sparkle">✨</span>
+<section class="ccn-hero">
+        <div class="ccn-hero-inner">
+            <div class="ccn-hero-copy">
+                <div class="ccn-hero-kicker">
+                    <span class="ccn-sparkle">✨</span>
                     Welcome to Cocoon
                 </div>
                 <h1>Feel good, <span>one moment</span> at a time</h1>
                 <p>Meet Mochi, your adorable self-care buddy! Track moods, practice mindfulness, and build healthy habits — all wrapped in the coziest app experience.</p>
-                <div class="hero-buttons">
-                    <a href="#download" class="btn btn-primary">
+                <div class="ccn-hero-buttons">
+                    <a href="#download" class="ccn-btn ccn-btn--primary">
                         <span>🍡</span> Get Started Free
                     </a>
-                    <a href="#preview" class="btn btn-secondary">
+                    <a href="#preview" class="ccn-btn ccn-btn--secondary">
                         <span>▶</span> See How It Works
                     </a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="mochi mochi-main">
-                    <span class="mochi-sparkle">star icon</span>
-                    <span class="mochi-sparkle">star icon</span>
-                    <span class="mochi-sparkle">heart icon</span>
-                    <div class="mochi-body">
-                        <div class="mochi-face">
-                            <div class="mochi-eye"></div>
-                            <div class="mochi-eye"></div>
+            <div class="ccn-hero-visual">
+                <div class="ccn-mochi ccn-mochi--main">
+                    <span class="ccn-mochi-sparkle">star icon</span>
+                    <span class="ccn-mochi-sparkle">star icon</span>
+                    <span class="ccn-mochi-sparkle">heart icon</span>
+                    <div class="ccn-mochi-body">
+                        <div class="ccn-mochi-face">
+                            <div class="ccn-mochi-eye"></div>
+                            <div class="ccn-mochi-eye"></div>
                         </div>
-                        <div class="mochi-blush left"></div>
-                        <div class="mochi-blush right"></div>
-                        <div class="mochi-mouth"></div>
+                        <div class="ccn-mochi-blush ccn-mochi-blush--left"></div>
+                        <div class="ccn-mochi-blush ccn-mochi-blush--right"></div>
+                        <div class="ccn-mochi-mouth"></div>
                     </div>
                 </div>
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <div class="phone-content">
-                            <div class="phone-clock-wrapper">
-                                <div class="phone-clock" id="phoneClock">
-                                    <span class="clock-time">00:00</span><span class="clock-seconds">:00</span>
-                                    <span class="clock-ampm"></span>
+                <div class="ccn-phone">
+                    <div class="ccn-phone-screen">
+                        <div class="ccn-phone-content">
+                            <div class="ccn-phone-clock-wrap">
+                                <div class="ccn-phone-clock" id="cocoonPhoneClock">
+                                    <span class="ccn-clock-time">00:00</span><span class="ccn-clock-seconds">:00</span>
+                                    <span class="ccn-clock-ampm"></span>
                                 </div>
-                                <button class="clock-toggle" id="clockToggle">24h</button>
+                                <button class="ccn-clock-toggle" id="cocoonClockToggle">24h</button>
                             </div>
-                            <div class="phone-greeting" id="phoneGreeting">Good morning! 🌸</div>
-                            <div class="phone-mood-label">How are you feeling today?</div>
-                            <div class="phone-moods">
-                                <div class="mood-btn" data-mood="happy">😊</div>
-                                <div class="mood-btn" data-mood="loved">🥰</div>
-                                <div class="mood-btn" data-mood="calm">😌</div>
-                                <div class="mood-btn" data-mood="down">😔</div>
+                            <div class="ccn-phone-greeting" id="cocoonPhoneGreeting">Good morning! 🌸</div>
+                            <div class="ccn-phone-mood-label">How are you feeling today?</div>
+                            <div class="ccn-phone-moods">
+                                <div class="ccn-mood-btn" data-mood="happy">😊</div>
+                                <div class="ccn-mood-btn" data-mood="loved">🥰</div>
+                                <div class="ccn-mood-btn" data-mood="calm">😌</div>
+                                <div class="ccn-mood-btn" data-mood="down">😔</div>
                             </div>
-                            <div class="mood-note" id="moodNote">Tap a mood to check in</div>
-                            <div class="phone-card">
-                                <div class="phone-card-title">{nature icon} Breathing Exercise</div>
-                                <div class="breathing-circle"></div>
+                            <div class="ccn-mood-note" id="cocoonMoodNote">Tap a mood to check in</div>
+                            <div class="ccn-phone-card">
+                                <div class="ccn-phone-card-title">{nature icon} Breathing Exercise</div>
+                                <div class="ccn-breathing-circle"></div>
                             </div>
                         </div>
-                        <div class="phone-nav">
-                            <div class="phone-nav-item active">home</div>
-                            <div class="phone-nav-item">paper</div>
-                            <div class="phone-nav-item">musci</div>
-                            <div class="phone-nav-item">setting</div>
+                        <div class="ccn-phone-nav">
+                            <div class="ccn-phone-nav-item ccn-is-active">home</div>
+                            <div class="ccn-phone-nav-item">paper</div>
+                            <div class="ccn-phone-nav-item">musci</div>
+                            <div class="ccn-phone-nav-item">setting</div>
                         </div>
                     </div>
                 </div>
-                <div class="float-element float-heart">heart</div>
-                <div class="float-element float-star">star</div>
-                <div class="float-element float-cloud">cloud</div>
+                <div class="ccn-float ccn-float--heart">heart</div>
+                <div class="ccn-float ccn-float--star">star</div>
+                <div class="ccn-float ccn-float--cloud">cloud</div>
             </div>
         </div>
     </section>
+<section class="ccn-toolkit" id="cocoon-toolkit">
+    <div class="ccn-toolkit-head cocoon-reveal">
+        <span class="ccn-kicker">the toolkit</span>
+        <h2>Everything on your desk, digitally</h2>
+        <p>Six small tools, each doing one thing well.</p>
+    </div>
+    <div class="ccn-note-grid">
+        <article class="ccn-note ccn-note--notebook cocoon-reveal">
+            <span class="ccn-pin"></span>
+            <span class="ccn-emoji">😊</span>
+            <h3>Mood Tracking</h3>
+            <p>Log how you're feeling with cute emoji check-ins and watch your patterns take shape over the weeks.</p>
+            <div class="ccn-notebook-lines" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </article>
+
+        <article class="ccn-note ccn-note--breathe cocoon-reveal">
+            <span class="ccn-emoji">🌬️</span>
+            <h3>Breathing Exercises</h3>
+            <p>A calm 4-7-8 breathing guide with Mochi, for whenever your thoughts are moving faster than you'd like.</p>
+            <div class="ccn-breath-circle" aria-hidden="true"></div>
+        </article>
+        <article class="ccn-note ccn-note--journal cocoon-reveal">
+            <span class="ccn-fold" aria-hidden="true"></span>
+            <span class="ccn-emoji">📔</span>
+            <h3>Gratitude Journal</h3>
+            <p>Three good things a day. Small enough to actually keep up with, big enough to matter later.</p>
+            <div class="ccn-coffee-ring" aria-hidden="true"></div>
+        </article>
+        <article class="ccn-note ccn-note--tape cocoon-reveal">
+            <span class="ccn-washi-tab" aria-hidden="true"></span>
+            <span class="ccn-emoji">🌙</span>
+            <h3>Sleep Sounds</h3>
+            <p>Rain, waves, and forest ambience for when it's time to put the phone down and drift off.</p>
+        </article>
+
+    
+        <article class="ccn-note ccn-note--pin cocoon-reveal">
+            <span class="ccn-pin" aria-hidden="true"></span>
+            <span class="ccn-emoji">💌</span>
+            <h3>Daily Affirmations</h3>
+            <p class="ccn-handwritten">"you're doing better than you think"</p>
+            <p>A new one from Mochi every morning, no two days alike.</p>
+        </article>
+        <article class="ccn-note ccn-note--checklist cocoon-reveal">
+            <span class="ccn-emoji">✅</span>
+            <h3>Habit Tracker</h3>
+            <p>Check off small wins and build a streak worth being proud of.</p>
+            <ul class="ccn-checklist" aria-hidden="true">
+                <li class="ccn-checked">Drink water</li>
+                <li class="ccn-checked">Stretch</li>
+                <li>Read 10 mins</li>
+            </ul>
+        </article>
+    </div>
+</section>
